@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1300px;
+}
+
+li {
+  list-style: none;
+}
+
+.idea {
+  padding-top: 47px;
+  padding-bottom: 24px;
+}
+.idea .container .idea-content {
+  padding-bottom: 74px;
+}
+.idea .container .idea-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin: 0;
+  padding-bottom: 23px;
+}
+.idea .container h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+}
+.idea .container h4 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  padding-bottom: 56px;
+}
+.idea .container .idea-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.idea .container .idea-btn a::after {
+  content: "";
+  background-image: url(../img/idea/IMAGE.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 28px;
+  position: relative;
+  top: 5px;
+}
+
+.cards {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.cards .container h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+}
+.cards .container h4 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+  padding-bottom: 56px;
+}
+.cards .container .card__bloc .card__bloc-content {
+  border: none;
+  background-color: #F8F9FA;
+  min-height: 453px;
+  border-radius: 16px;
+}
+.cards .container .card__bloc .card__bloc-content .card-body {
+  margin-top: 41px;
+}
+.cards .container .card__bloc .card__bloc-content .card-body p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+}
+.cards .container .card__bloc .card__bloc-content .card-body h5 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.cards .container .card__bloc .card__bloc-content .card-body .card__btn {
+  padding-bottom: 30px;
+}
+.cards .container .card__bloc .card__bloc-content .card-body .card__btn a {
+  padding: 14px 63px;
+  border: 1px solid hsl(0deg, 0%, 0%);
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.items {
+  padding-top: 53px;
+  padding-bottom: 28px;
+}
+.items .container h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+}
+.items .container h4 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+  padding-bottom: 31px;
+}
+.items .container .items__content .item__content-box .card .img__box {
+  padding-left: 28px;
+  padding-bottom: 33px;
+  width: 247px;
+  height: 214px;
+}
+.items .container .items__content .item__content-box .card .card-body h5 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  padding-bottom: 9px;
+}
+.items .container .items__content .item__content-box .card .card-body p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+  padding-bottom: 8px;
+}
+.items .container .items__content .item__content-box .card .card-body .card__prise {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.offers .container h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+}
+.offers .container h4 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+  padding-bottom: 56px;
+}
+.offers .container .offers__box-first {
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+}
+.offers .container .offers__box-first .offers__box-first-mc {
+  margin-bottom: 72px;
+}
+.offers .container .offers__box-first .offers__box-first-mc .img__box-first {
+  width: 500px;
+  height: 377px;
+  padding-left: 42px;
+}
+.offers .container .offers__box-first .offers__box-first-mc .card-body h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+  padding-right: 42px;
+}
+.offers .container .offers__box-first .offers__box-first-mc .card-body p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  padding-right: 42px;
+}
+.offers .container .offers__box-first .offers__box-second {
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+}
+.offers .container .offers__box-first .offers__box-second .row {
+  padding-right: 42px;
+  padding-left: 42px;
+}
+.offers .container .offers__box-first .offers__box-second .row .img__box-second {
+  width: 381px;
+  height: 270px;
+}
+.offers .container .offers__box-first .offers__box-second .row .card-body h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+  padding-top: 87px;
+}
+.offers .container .offers__box-first .offers__box-second .row .card-body p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+.offers .container .offers__box-thierd {
+  padding-top: 143px;
+  margin-right: 16px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+}
+.offers .container .offers__box-thierd .card-body h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  padding-top: 41px;
+}
+.offers .container .offers__box-thierd .card-body p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  color: #000000;
+}
+.offers .container .offers__box-four {
+  padding-top: 115px;
+  padding-bottom: 145px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+}
+.offers .container .offers__box-four .box-third-img {
+  width: 405px;
+  height: 3667px;
+}
+.offers .container .offers__box-four .card-body h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+.offers .container .offers__box-four .card-body p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+
+.phone__slide {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.phone__slide .container {
+  background-color: #DCE5E2;
+  border-radius: 40px;
+}
+.phone__slide .container .phone__slide-text {
+  padding-top: 145px;
+  padding-left: 56px;
+}
+.phone__slide .container h1 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  padding-bottom: 19px;
+}
+.phone__slide .container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.phone__slide .container .phone__slide-btn a {
+  padding: 14px 53px;
+  border: 1px solid hsl(0deg, 0%, 0%);
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+.items{
+    padding-top: 53px;
+    padding-bottom: 28px;
+    .container{
+        h3{
+            @include titel-stack;
+        }
+        h4{
+            @include sub-titel;
+            padding-bottom: 31px;
+        }
+        .items__content{
+            .item__content-box{
+                .card{
+                    .img__box{
+                        padding-left:  28px;
+                        padding-bottom: 33px;
+                        width: 247px;
+                        height: 214px;
+                    }
+                    .card-body{
+                        h5{
+                            font-family: 'Readex Pro';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 28px;
+                            color: #000000;
+                            padding-bottom: 9px;
+                        }
+                        p{
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #4B4B4B;
+                            padding-bottom: 8px;
+                        }
+                        .card__prise{
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

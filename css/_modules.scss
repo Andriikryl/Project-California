@@ -1,0 +1,46 @@
+$main-color:hsla(0, 0%, 0%, 1);
+$p-color:hsla(0, 0%, 29%, 1);
+$titel-size:42px;
+
+@mixin titel-stack {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $titel-size;
+    line-height: 52px;
+    color: #000000;
+}
+
+@mixin  sub-titel {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;    
+}
+
+@mixin max-screen($res) {
+    @media screen and (max-width: $res) {
+      @content;
+    }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    display: inline-block;
+}
+.container{
+    max-width: 1300px;
+}
+li{
+    list-style: none;
+}
+
+

@@ -1,0 +1,134 @@
+.offers{
+    .container{
+        h3{
+            @include titel-stack;
+        }
+        h4{
+            @include sub-titel;
+            padding-bottom: 56px;
+        }
+        .offers__box-first{
+            filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+            .offers__box-first-mc{
+                margin-bottom: 72px;
+                .img__box-first{
+                    width: 500px;
+                    height: 377px;
+                    padding-left: 42px;
+                }
+                .card-body{
+                    h5{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 19px;
+                        color: #000000;
+                        padding-right: 42px;
+                    }
+                    p{
+                        font-family: 'Readex Pro';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 38px;
+                        color: #000000;
+                        padding-right: 42px;
+                    }
+                }
+
+            }
+
+            .offers__box-second{
+                filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+                .row{ 
+                    padding-right: 42px;
+                    padding-left: 42px;
+                    .img__box-second{
+                        width: 381px;
+                        height: 270px;
+                        // img{
+                        //     height: 270px;
+                        // }
+                    }
+                    .card-body{
+                        h5{
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 19px;
+                            color: #000000;
+                            padding-top: 87px;
+                        }
+                        p{
+                            font-family: 'Readex Pro';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 32px;
+                            line-height: 38px;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .offers__box-thierd{
+            padding-top: 143px;
+            margin-right: 16px;
+            filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+            .card-body{
+                h5{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 19px;
+                    text-align: center;
+                    color: #000000;
+                    padding-top: 41px;
+                }
+                p{
+                    font-family: 'Readex Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    text-align: center;
+                    color: #000000;
+                }
+            }
+        }
+
+        .offers__box-four{
+            padding-top: 115px;
+            padding-bottom: 145px;
+            filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+            .box-third-img{
+                width: 405px;
+                height: 3667px;
+            }
+            .card-body{
+                h5{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    color: #000000;
+                }
+                p{
+                    font-family: 'Readex Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 38px;
+                    text-align: center;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}

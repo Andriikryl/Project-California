@@ -1,0 +1,57 @@
+.cards{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    .container{
+        h3{
+            @include titel-stack;
+        }
+        h4{
+            @include sub-titel;
+            padding-bottom: 56px;
+        }
+        .card__bloc{
+            .card__bloc-content{
+                border: none;
+                background-color: #F8F9FA;
+                min-height: 453px;
+                border-radius: 16px;
+                .card-body{
+                    margin-top: 41px;
+                    p{
+                        font-family: 'Readex Pro';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 17px;
+                        color: #000000;
+                    }
+                    h5{
+                        font-family: 'Readex Pro';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 28px;
+                        line-height: 35px;
+                        color: #000000;
+                        padding-bottom: 30px;
+                    }
+                    .card__btn{
+                        padding-bottom: 30px;
+                        a{
+                            padding: 14px 63px;
+                            border: 1px solid $main-color;
+                            border-radius: 200px;
+
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            text-transform: capitalize;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

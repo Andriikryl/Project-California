@@ -1,0 +1,51 @@
+.idea{
+    padding-top: 47px;
+    padding-bottom: 24px;
+    .container{
+        .idea-content{
+            padding-bottom: 74px;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+                color: #000000;
+                margin: 0;
+                padding-bottom: 23px;
+            }
+        }
+       h3{
+        @include titel-stack;
+       }
+       h4{
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        padding-bottom: 56px;
+       }
+       .idea-btn{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: capitalize;
+        color: #000000;
+        a{
+            &::after{
+                content: "";
+                background-image: url(../img/idea/IMAGE.svg);
+                background-repeat: no-repeat;
+                display: inline-block;
+                width: 30px;
+                height: 28px;
+                position: relative;
+                top: 5px;
+            }
+        }
+       }
+    }
+}
