@@ -10,13 +10,22 @@
             padding-bottom: 31px;
         }
         .items__content{
+ 
             .item__content-box{
+                @include max-screen(767px){
+
+                    
+                }
                 .card{
                     .img__box{
                         padding-left:  28px;
                         padding-bottom: 33px;
                         width: 247px;
                         height: 214px;
+                        @include max-screen (767px){
+                            padding-left: 0px;
+                            padding-bottom: 0px;
+                        }
                     }
                     .card-body{
                         h5{
@@ -27,6 +36,9 @@
                             line-height: 28px;
                             color: #000000;
                             padding-bottom: 9px;
+                            @include max-screen (767px){
+                                text-align: center;
+                            }
                         }
                         p{
                             font-family: 'Inter';
@@ -36,6 +48,9 @@
                             line-height: 17px;
                             color: #4B4B4B;
                             padding-bottom: 8px;
+                            @include max-screen (767px){
+                                text-align: center;
+                            }
                         }
                         .card__prise{
                             font-family: 'Inter';

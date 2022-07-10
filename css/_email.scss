@@ -1,0 +1,20 @@
+.email{
+    .container{
+        background-color: #DCE5E2;
+        border-radius: 16px;
+        h3{
+            @include titel-stack;
+            padding-bottom: 9px;
+            padding-top: 47px
+        }
+        p{
+            @include sub-titel;
+            padding-bottom: 14px;
+        }
+        .email__content{
+            .email__content-img{
+                padding-bottom: 14px;
+            }
+        }
+    }
+}

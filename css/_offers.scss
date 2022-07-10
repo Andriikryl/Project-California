@@ -2,19 +2,31 @@
     .container{
         h3{
             @include titel-stack;
+            @include max-screen(320px){
+                font-size: 20px;
+                line-height: 24px;
+            }
+            @include max-screen (400px){
+                font-size: 27px;
+                line-height: 34px;
+            }
         }
         h4{
             @include sub-titel;
             padding-bottom: 56px;
+            @include max-screen(320px){
+                padding-bottom: 20px;
+            }
         }
         .offers__box-first{
             filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
             .offers__box-first-mc{
                 margin-bottom: 72px;
+                
                 .img__box-first{
-                    width: 500px;
-                    height: 377px;
+                    padding-right: 97px;
                     padding-left: 42px;
+                 
                 }
                 .card-body{
                     h5{
@@ -34,6 +46,10 @@
                         line-height: 38px;
                         color: #000000;
                         padding-right: 42px;
+                        @include max-screen (320px){
+                            font-size: 20px;
+                            line-height: 20px;
+                        }
                     }
                 }
 
@@ -44,13 +60,6 @@
                 .row{ 
                     padding-right: 42px;
                     padding-left: 42px;
-                    .img__box-second{
-                        width: 381px;
-                        height: 270px;
-                        // img{
-                        //     height: 270px;
-                        // }
-                    }
                     .card-body{
                         h5{
                             font-family: 'Inter';
@@ -60,6 +69,9 @@
                             line-height: 19px;
                             color: #000000;
                             padding-top: 87px;
+                            @include max-screen (760px){
+                                padding-top: 10px;
+                            }
                         }
                         p{
                             font-family: 'Readex Pro';
@@ -68,6 +80,10 @@
                             font-size: 32px;
                             line-height: 38px;
                             color: #000000;
+                            @include max-screen (320px){
+                                font-size: 20px;
+                                line-height: 20px;
+                            }
                         }
                     }
                 }
@@ -79,6 +95,7 @@
             padding-top: 143px;
             margin-right: 16px;
             filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+            
             .card-body{
                 h5{
                     font-family: 'Inter';
@@ -97,6 +114,10 @@
                     font-size: 32px;
                     text-align: center;
                     color: #000000;
+                    @include max-screen (320px){
+                        font-size: 20px;
+                        line-height: 20px;
+                    }
                 }
             }
         }
@@ -106,8 +127,8 @@
             padding-bottom: 145px;
             filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
             .box-third-img{
-                width: 405px;
-                height: 3667px;
+                width: 465px;
+                height: 367px;
             }
             .card-body{
                 h5{
@@ -127,6 +148,11 @@
                     line-height: 38px;
                     text-align: center;
                     color: #000000;
+                    @include max-screen (320px){
+                        font-size: 20px;
+                        line-height: 20px;
+                        padding-bottom: 15px;
+                    }
                 }
             }
         }

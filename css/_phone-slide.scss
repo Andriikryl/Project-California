@@ -2,12 +2,43 @@
     padding-top: 28px;
     padding-bottom: 28px;
     .container{
+        .card__try{
+            @include max-screen (765px){
+                position: relative;
+                overflow: hidden;
+              
+            }
+            .card-body-try{
+                @include max-screen (765px){
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    position: absolute;
+                    background: linear-gradient(90deg, hsl(0 0% 100% / 0.1) 50%, rgba(64, 163, 248, 0.3) 50%);
+                    backdrop-filter: blur(5px);
+                    border-radius: 20px;
+                    z-index: 10;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                  
+                }
+            }
+        }
         background-color: #DCE5E2;
         border-radius: 40px;
+        .phone__slide-img{
+            width: 647px;
+            height: 550px;
+        }
         .phone__slide-text{
            
             padding-top: 145px;
             padding-left: 56px;
+            @include max-screen(765px){
+                padding-top: 0px;
+                padding-left: 0px;
+            }
         }
         h1{
             font-family: 'Readex Pro';
@@ -16,6 +47,14 @@
             font-size: 58px;
             line-height: 70px;
             padding-bottom: 19px;
+            @include max-screen(900px){
+                font-size: 20px;
+            }
+            @include max-screen (765px){
+                color: white;
+                line-height: 30px;
+                text-align: center;
+            }
         }
         p{
             font-family: 'Inter';
@@ -25,9 +64,20 @@
             line-height: 19px;
             color: #000000;
             padding-bottom: 30px;
+            @include max-screen (765px){
+                color: white;
+                text-align: left;
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+            }
         }
         .phone__slide-btn{
-            
+            @include max-screen (765px){
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+            }
            a{
             padding: 14px 53px;
             border: 1px solid $main-color;
@@ -39,6 +89,12 @@
             line-height: 22px;
             text-transform: capitalize;
             color: #000000;
+            @include max-screen (765px){
+                color: white;
+                border: 2px solid;
+                border-image: linear-gradient(90deg, rgba(64, 163, 248, 0.7), hsl(0 0% 100% / 0.7)) 1;
+                
+            }
            }
         }
     }
