@@ -521,11 +521,15 @@ header nav .nav-link {
   }
 }
 
+.email {
+  padding-bottom: 19px;
+}
 .email .container {
   background-color: #DCE5E2;
   border-radius: 16px;
+  padding-bottom: 43px;
 }
-.email .container h3 {
+.email .container h2 {
   font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;
@@ -546,4 +550,52 @@ header nav .nav-link {
 }
 .email .container .email__content .email__content-img {
   padding-bottom: 14px;
+  max-width: 233px;
+  height: 200px;
+}
+.email .container .email__form form .email_form {
+  padding: 16px 184px 17px 32px;
+  background: #DCE5E2;
+  border: 1px solid #000000;
+  border-radius: 54px 0px 0px 54px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.email .container .email__form form .email__btn .btn {
+  padding: 16px 33px 17px 32px;
+  background: #000000;
+  border-radius: 0px 200px 200px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.search .container .search_container h2 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+}
+.search .container .search_container nav form .btn {
+  position: relative;
+  left: 55px;
+}
+.search .container .search_container nav form input {
+  padding: 22px 476px 22px 67px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
