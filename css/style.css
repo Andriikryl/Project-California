@@ -458,6 +458,7 @@ header nav .nav-link {
   display: flex;
   justify-content: center;
   bottom: 34px;
+  overflow: hidden;
 }
 .phone__slide .owl-carousel button.owl-dot {
   border-bottom: solid 2px #000000;

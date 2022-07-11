@@ -34,14 +34,6 @@
             padding: 7px;
             width: 13px;
             height: 13px;
-            
-            // &::after{
-            //     content: "";
-            //     background-image: url(../img/phone__slide/IMAGE.svg);
-            //     display: inline-block;
-            //     width: 14px;
-            //     height: 26px;
-            // }
           }
         }
     
@@ -51,6 +43,7 @@
           display: flex;
           justify-content: center;
           bottom: 34px;
+          overflow: hidden;
         }
     
         button.owl-dot {
