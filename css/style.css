@@ -207,6 +207,9 @@ header nav .nav-link {
     padding-bottom: 0px;
   }
 }
+.items .container .items__content .item__content-box .card .card-body {
+  max-width: 300px;
+}
 .items .container .items__content .item__content-box .card .card-body h5 {
   font-family: "Readex Pro";
   font-style: normal;
@@ -415,6 +418,53 @@ header nav .nav-link {
   padding-top: 28px;
   padding-bottom: 28px;
 }
+.phone__slide .owl-carousel .owl-nav {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.phone__slide .owl-carousel .owl-nav button.owl-prev {
+  border: solid;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  color: #000000;
+  position: absolute;
+  top: -284px;
+  left: 20px;
+  padding: 7px;
+  width: 13px;
+  height: 13px;
+}
+.phone__slide .owl-carousel .owl-nav button.owl-next {
+  border: solid;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  color: #000000;
+  position: absolute;
+  top: -284px;
+  right: 20px;
+  padding: 7px;
+  width: 13px;
+  height: 13px;
+}
+.phone__slide .owl-carousel .owl-dots {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 34px;
+}
+.phone__slide .owl-carousel button.owl-dot {
+  border-bottom: solid 2px #000000;
+  width: 194px;
+  margin: 0 17px;
+  padding: 6px 0;
+}
 .phone__slide .container {
   background-color: #DCE5E2;
   border-radius: 40px;
@@ -442,6 +492,11 @@ header nav .nav-link {
   }
 }
 .phone__slide .container .phone__slide-img {
+  background-image: url(../img/phone__slide/IMAGE.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 40px;
+  height: 100%;
   width: 647px;
   height: 550px;
 }
@@ -463,9 +518,15 @@ header nav .nav-link {
   line-height: 70px;
   padding-bottom: 19px;
 }
+@media screen and (max-width: 1030px) {
+  .phone__slide .container h1 {
+    font-size: 30px;
+    line-height: 28px;
+  }
+}
 @media screen and (max-width: 900px) {
   .phone__slide .container h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 765px) {
@@ -483,6 +544,11 @@ header nav .nav-link {
   line-height: 19px;
   color: #000000;
   padding-bottom: 30px;
+}
+@media screen and (max-width: 900px) {
+  .phone__slide .container p {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 765px) {
   .phone__slide .container p {
@@ -524,8 +590,37 @@ header nav .nav-link {
 .email {
   padding-bottom: 19px;
 }
+.email .try__box {
+  max-width: 400px;
+}
+.email .try__btn {
+  padding: 16px 33px 17px 32px;
+  background: #000000;
+  border-radius: 0px 200px 200px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.email .try__2 {
+  padding-top: 25px;
+  padding-bottom: 26px;
+  background: #DCE5E2;
+  border: 1px solid #000000;
+  border-radius: 54px 0px 0px 54px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
 .email .container {
   background-color: #DCE5E2;
+  max-width: 935px;
   border-radius: 16px;
   padding-bottom: 43px;
 }
@@ -578,6 +673,37 @@ header nav .nav-link {
   text-align: center;
 }
 
+.search .container .search__btns a {
+  padding: 12px 22px 13px 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.search .container .try__4 {
+  max-width: 650px;
+}
+.search .container .try__4 .try__img span {
+  background: #F8F9FA;
+  border: 1px solid #C5C5C5;
+  border-radius: 54px 0px 0px 54px;
+  border-right: 0px;
+}
+.search .container .try__4 .search__form {
+  padding-top: 20px;
+  padding-bottom: 22px;
+  border-radius: 0px 200px 200px 0px;
+  border-left: 0px;
+  background: #F8F9FA;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
 .search .container .search_container h2 {
   font-family: "Readex Pro";
   font-style: normal;
@@ -597,5 +723,22 @@ header nav .nav-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+  color: #000000;
+}
+
+footer .container .footer__content h5 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+footer .container .footer__content ul li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
   color: #000000;
 }/*# sourceMappingURL=style.css.map */

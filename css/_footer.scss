@@ -1,0 +1,26 @@
+footer{
+    .container{
+        .footer__content{
+            h5{
+                font-family: 'Readex Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                color: #000000;
+            }
+            ul{
+                li{
+                    a{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 22px;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}

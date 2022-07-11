@@ -1,7 +1,69 @@
 .phone__slide{
+    .owl-carousel {
+        .owl-nav {
+          width: 100%;
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+    
+          button.owl-prev {
+            border: solid;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+            color: #000000;
+            position: absolute;
+            top: -284px;
+            left: 20px;
+            padding: 7px;
+            width: 13px;
+            height: 13px;
+          }
+    
+          button.owl-next {
+            border: solid;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(315deg);
+            -webkit-transform: rotate(315deg);
+            color: #000000;
+            position: absolute;
+            top: -284px;
+            right: 20px;
+            padding: 7px;
+            width: 13px;
+            height: 13px;
+            
+            // &::after{
+            //     content: "";
+            //     background-image: url(../img/phone__slide/IMAGE.svg);
+            //     display: inline-block;
+            //     width: 14px;
+            //     height: 26px;
+            // }
+          }
+        }
+    
+        .owl-dots {
+          width: 100%;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          bottom: 34px;
+        }
+    
+        button.owl-dot {
+          border-bottom: solid 2px #000000;
+          width: 194px;
+          margin: 0 17px;
+          padding: 6px 0;
+        }
+      }
     padding-top: 28px;
     padding-bottom: 28px;
     .container{
+        
         .card__try{
             @include max-screen (765px){
                 position: relative;
@@ -28,6 +90,11 @@
         background-color: #DCE5E2;
         border-radius: 40px;
         .phone__slide-img{
+            background-image: url(../img/phone__slide/IMAGE.png);
+            background-size: cover;
+            background-position: center;
+            border-radius: 40px;
+            height: 100%;
             width: 647px;
             height: 550px;
         }
@@ -47,8 +114,12 @@
             font-size: 58px;
             line-height: 70px;
             padding-bottom: 19px;
+            @include max-screen (1030px){
+                font-size: 30px;
+                line-height: 28px;
+            }
             @include max-screen(900px){
-                font-size: 20px;
+                font-size: 30px;
             }
             @include max-screen (765px){
                 color: white;
@@ -64,6 +135,9 @@
             line-height: 19px;
             color: #000000;
             padding-bottom: 30px;
+            @include max-screen(900px){
+                font-size: 12px;
+            }
             @include max-screen (765px){
                 color: white;
                 text-align: left;
