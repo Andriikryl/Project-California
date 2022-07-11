@@ -3,7 +3,7 @@ $(document).ready(function(){
         loop:true,
         margin:0,
         nav:false,
-        dots:true,
+        dots:false,
         pause: 'false',
         navText: [ '', ' ' ],
         autoplay: false,

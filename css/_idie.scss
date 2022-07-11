@@ -13,6 +13,13 @@
                 color: #000000;
                 margin: 0;
                 padding-bottom: 23px;
+                @include max-screen (417px){
+                    font-size: 18px;
+                }
+                @include max-screen (246px){
+                    font-size: 12px;
+                    line-height: 20px;
+                }
             }
         }
        h3{

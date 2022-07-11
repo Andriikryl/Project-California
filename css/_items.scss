@@ -25,10 +25,14 @@
                         @include max-screen (767px){
                             padding-left: 0px;
                             padding-bottom: 0px;
+                            margin: auto;
                         }
                     }
                     .card-body{
                         max-width: 300px;
+                        @include max-screen (767px){
+                            margin: auto;
+                        }
                         h5{
                             font-family: 'Readex Pro';
                             font-style: normal;
